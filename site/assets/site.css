@@ -42,6 +42,7 @@ body {
 h1, h2, h3 { color: var(--ink); text-wrap: balance; }
 p { margin: 0 0 1em; text-wrap: pretty; }
 img { max-width: 100%; height: auto; display: block; }
+strong, b { font-weight: 600; }
 
 a {
   color: var(--ink);
