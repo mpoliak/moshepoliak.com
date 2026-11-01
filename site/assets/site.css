@@ -14,7 +14,7 @@
   --accent-soft: #F1E1D6;
   --link-line: #CFA492;
   --font: "Newsreader", Georgia, "Times New Roman", serif;
-  --measure: 45rem;
+  --measure: 50rem;
   --note-width: 13rem;
   --note-gap: 2.5rem;
 }
@@ -24,6 +24,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 html {
+  font-size: clamp(1rem, 0.5875rem + 0.6vw, 1.25rem);
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
@@ -181,7 +182,7 @@ main { padding: 3.75rem 0 4.5rem; }
 .with-notes .lang-native { display: inline; color: var(--ink); }
 .with-notes .lang-en { display: none; }
 
-@media (min-width: 74rem) {
+@media (min-width: 87rem) {
   .with-notes .entry {
     display: grid;
     grid-template-columns: minmax(0, 1fr) var(--note-width);
