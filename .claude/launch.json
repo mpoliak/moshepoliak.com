@@ -4,7 +4,7 @@
     {
       "name": "site-drafts",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8642", "--bind", "127.0.0.1", "--directory", "site"],
+      "runtimeArgs": ["-m", "http.server", "8642", "--bind", "127.0.0.1", "--directory", "/Users/moshepoliak/moshepoliak.com/site"],
       "port": 8642
     }
   ]
