@@ -122,6 +122,20 @@ main { padding: 3.75rem 0 4.5rem; }
 .hero-links { font-size: 1.05rem; }
 .hero .note { font-size: 1rem; font-style: italic; color: var(--muted); }
 
+/* Portrait: a muted circle that the introduction wraps around */
+.portrait {
+  float: right;
+  width: 11rem;
+  height: auto;
+  margin: .3rem 0 .75rem 1.25rem;
+  border-radius: 50%;
+  shape-outside: circle(50%) border-box;
+  shape-margin: 1rem;
+}
+@media (max-width: 40rem) {
+  .portrait { width: 6.5rem; margin-left: .9rem; shape-margin: .6rem; }
+}
+
 /* ---------- Inner pages ---------- */
 
 .page-head { margin-bottom: 1rem; }
